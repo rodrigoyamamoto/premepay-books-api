@@ -165,6 +165,6 @@ O elemento **Total**  refere-se ao valor total dos pedidos (somando o preço de 
 }
 ```
 
-#### Listando todos os Pedidos
+## Listando todos os Pedidos
 • Apontar para o endereço https://localhost:5001/api/order?c=?USD
 <br>• Utilizar o tipo Get para o Request.
