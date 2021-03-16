@@ -1,0 +1,56 @@
+[
+  {
+    "CustomerName": "Jane Doe",
+    "OrderAmount": 22.98,
+    "currencyTypeBase": 1,
+    "currencyTypeConverted": 1,
+    "Books": [
+      {
+        "title": "Baldwin's Kitchen",
+        "author": "Emily Na",
+        "price": 10.99
+      },
+      {
+        "title": "Baldwin's Transatlantic Reverberations",
+        "author": "Jovita dos Santos Pinto, Noemi Michel",
+        "price": 11.99
+      }
+    ]
+  },
+  {
+    "CustomerName": "Edith O'Donnell",
+    "OrderAmount": 19.90,
+    "currencyTypeBase": 1,
+    "currencyTypeConverted": 1,
+    "Books": [
+      {
+        "title": "O Menino Maluquinho",
+        "author": "Ziraldo",
+        "price": 19.99
+      }
+    ]
+  },
+  {
+    "CustomerName": "John Doe",
+    "OrderAmount": 57.97,
+    "currencyTypeBase": 1,
+    "currencyTypeConverted": 1,
+    "Books": [
+      {
+        "title": "Trends in Baldwin Criticism",
+        "author": "Joseph Vogel",
+        "price": 19.99
+      },
+      {
+        "title": "Unwords",
+        "author": "Shane Weller",
+        "price": 25.99
+      },
+      {
+        "title": "Baldwin's Transatlantic Reverberations",
+        "author": "Jovita dos Santos Pinto, Noemi Michel",
+        "price": 11.99
+      }
+    ]
+  }
+]
