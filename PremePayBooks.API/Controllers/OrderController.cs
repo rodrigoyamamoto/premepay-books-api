@@ -100,7 +100,8 @@ namespace PremePayBooks.API.Controllers
         {
             if (baseCurrency == convertTo) return valueToConvert;
 
-            var exchangeRateApiUrl = $"https://api.exchangeratesapi.io/latest?base={baseCurrency}&symbols={convertTo}";
+            var exchangeRateApiUrl = $"http://api.exchangeratesapi.io/v1/latest?access_key=[key]&symbols={convertTo}&base={baseCurrency}";
+            
             decimal convertedValue;
 
             using (var httpClient = new HttpClient())
